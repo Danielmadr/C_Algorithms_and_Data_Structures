@@ -20,23 +20,23 @@
  * @param auxPole Auxiliary pole (B).
  * @param finalPole Final pole (C).
  */
- 
+
 void solveHanoiTowers(int quantityOfDiscs, char initialPole, char auxPole, char finalPole) {
     if (quantityOfDiscs == 1) {
         printf("\tMover disco 1 da coluna %c para coluna %c\n", initialPole, finalPole);
         return; }
     solveHanoiTowers(quantityOfDiscs-1, initialPole, finalPole, auxPole);
-    printf("\tMover disco %d da coluna %c para coluna %c\n", n, initialPole, finalPole);
+    printf("\tMover disco %d da coluna %c para coluna %c\n", quantityOfDiscs, initialPole, finalPole);
     solveHanoiTowers(quantityOfDiscs-1, auxPole, initialPole, finalPole); }
 
 
 int main() {
-    int num;
+    int quantityOfDiscs;
 
     printf("Qual a Quantidade de Discos na torre?\n");
     scanf ("%d", &quantityOfDiscs);
 
-    printf("\nA sequencia de movimentos a seguir e':");
+    printf("\nA sequencia de movimentos a seguir e':\n");
     solveHanoiTowers(quantityOfDiscs, 'A', 'B', 'C');
 
     system ("pause");

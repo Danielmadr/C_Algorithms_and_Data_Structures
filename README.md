@@ -21,3 +21,29 @@ Este repositório contém implementações de algoritmos e estruturas de dados n
 ---
 
 **Atenção**: Este código é apenas para fins de demonstração e não deve ser usado em produção.
+
+***
+
+# Algorithms and Data Structures in C
+
+This repository contains implementations of algorithms and data structures in the C programming language. The codes here are related to concepts often taught in Software Engineering courses.
+
+## Algorithms
+
+- **[Tower of Hanoi (Recursive)](Tower_of_Hanoi_Recursive)**: Implementation of the recursive solution to the Tower of Hanoi problem.
+- **[Tower of Hanoi (Binary Approach)](Tower_of_Hanoi_Binary_approach)**: Solution to the Tower of Hanoi problem using a binary approach.
+- **[Lexical and Syntactic Evaluator](Lexical_and_Syntactic_Evaluator)**: Implementation of a lexical and syntactic evaluator for language processing.
+
+## How to Use
+
+1. Browse the folders above to find the source codes.
+2. Compile and run the programs as needed.
+
+## Notes
+
+- This repository is for educational and learning purposes only.
+- Feel free to explore the codes and contribute improvements!
+
+---
+
+**Note**: This code is for demonstration purposes only and should not be used in production.
